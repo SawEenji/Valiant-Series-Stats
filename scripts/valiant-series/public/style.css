@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: #020617;
+}
+
+.card {
+  background: #020617;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+button {
+  background: #ff4654;
+  border: none;
+  padding: 8px;
+  color: white;
+  border-radius: 10px;
+}

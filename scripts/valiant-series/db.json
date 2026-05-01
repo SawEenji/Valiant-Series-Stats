@@ -1,0 +1,305 @@
+{
+  "players": [
+    {
+      "nick": "Phantom",
+      "name": "Алексей Иванов",
+      "country": "RU",
+      "role": "Duelist",
+      "team": "Crimson Wolves",
+      "elo": 1620
+    },
+    {
+      "nick": "Frost",
+      "name": "Дмитрий Соколов",
+      "country": "RU",
+      "role": "Controller",
+      "team": "Crimson Wolves",
+      "elo": 1540
+    },
+    {
+      "nick": "Echo",
+      "name": "Иван Петров",
+      "country": "RU",
+      "role": "Sentinel",
+      "team": "Crimson Wolves",
+      "elo": 1490
+    },
+    {
+      "nick": "Volt",
+      "name": "Михаил Орлов",
+      "country": "BY",
+      "role": "Initiator",
+      "team": "Crimson Wolves",
+      "elo": 1575
+    },
+    {
+      "nick": "Nova",
+      "name": "Артём Зайцев",
+      "country": "RU",
+      "role": "Flex",
+      "team": "Crimson Wolves",
+      "elo": 1525
+    },
+    {
+      "nick": "Blaze",
+      "name": "Lucas Müller",
+      "country": "DE",
+      "role": "Duelist",
+      "team": "Iron Phoenix",
+      "elo": 1605
+    },
+    {
+      "nick": "Storm",
+      "name": "Pierre Dubois",
+      "country": "FR",
+      "role": "Controller",
+      "team": "Iron Phoenix",
+      "elo": 1530
+    },
+    {
+      "nick": "Reaper",
+      "name": "Marco Bianchi",
+      "country": "IT",
+      "role": "Sentinel",
+      "team": "Iron Phoenix",
+      "elo": 1465
+    },
+    {
+      "nick": "Vex",
+      "name": "Hans Becker",
+      "country": "DE",
+      "role": "Initiator",
+      "team": "Iron Phoenix",
+      "elo": 1555
+    },
+    {
+      "nick": "Zen",
+      "name": "Felix Roth",
+      "country": "AT",
+      "role": "Flex",
+      "team": "Iron Phoenix",
+      "elo": 1500
+    },
+    {
+      "nick": "Hex",
+      "name": "Min-jun Kim",
+      "country": "KR",
+      "role": "Duelist",
+      "team": "Tokyo Shadow",
+      "elo": 1685
+    },
+    {
+      "nick": "Sora",
+      "name": "Haruto Sato",
+      "country": "JP",
+      "role": "Controller",
+      "team": "Tokyo Shadow",
+      "elo": 1590
+    },
+    {
+      "nick": "Kage",
+      "name": "Ren Tanaka",
+      "country": "JP",
+      "role": "Sentinel",
+      "team": "Tokyo Shadow",
+      "elo": 1545
+    },
+    {
+      "nick": "Hiro",
+      "name": "Yuto Yamada",
+      "country": "JP",
+      "role": "Initiator",
+      "team": "Tokyo Shadow",
+      "elo": 1640
+    },
+    {
+      "nick": "Raiku",
+      "name": "Ji-ho Park",
+      "country": "KR",
+      "role": "Flex",
+      "team": "Tokyo Shadow",
+      "elo": 1570
+    },
+    {
+      "nick": "Saint",
+      "name": "Lucas Silva",
+      "country": "BR",
+      "role": "Duelist",
+      "team": "Solar Kings",
+      "elo": 1630
+    },
+    {
+      "nick": "Nyx",
+      "name": "Diego Rojas",
+      "country": "AR",
+      "role": "Controller",
+      "team": "Solar Kings",
+      "elo": 1495
+    },
+    {
+      "nick": "Ghost",
+      "name": "Pedro Alves",
+      "country": "BR",
+      "role": "Sentinel",
+      "team": "Solar Kings",
+      "elo": 1470
+    },
+    {
+      "nick": "Omen",
+      "name": "Carlos Mendes",
+      "country": "BR",
+      "role": "Initiator",
+      "team": "Solar Kings",
+      "elo": 1560
+    },
+    {
+      "nick": "Vega",
+      "name": "Mateo Lopez",
+      "country": "MX",
+      "role": "Flex",
+      "team": "Solar Kings",
+      "elo": 1515
+    },
+    {
+      "nick": "TestNick",
+      "elo": 1000,
+      "kills": 0,
+      "deaths": 0,
+      "assists": 0
+    }
+  ],
+  "teams": [
+    {
+      "name": "Crimson Wolves",
+      "tag": "CW",
+      "country": "RU",
+      "founded": 2021,
+      "logo": "🐺",
+      "elo": 1580
+    },
+    {
+      "name": "Iron Phoenix",
+      "tag": "IPX",
+      "country": "DE",
+      "founded": 2020,
+      "logo": "🔥",
+      "elo": 1520
+    },
+    {
+      "name": "Tokyo Shadow",
+      "tag": "TKS",
+      "country": "JP",
+      "founded": 2019,
+      "logo": "🌸",
+      "elo": 1645
+    },
+    {
+      "name": "Solar Kings",
+      "tag": "SLK",
+      "country": "BR",
+      "founded": 2022,
+      "logo": "👑",
+      "elo": 1490
+    },
+    {
+      "name": "Test Team",
+      "elo": 1000
+    }
+  ],
+  "matches": [
+    {
+      "tournament": "Valiant Spring Championship 2026",
+      "team1": "Crimson Wolves",
+      "team2": "Iron Phoenix",
+      "score": "13-9",
+      "date": "2026-04-22T18:00",
+      "status": "FINISHED",
+      "map": "Ascent"
+    },
+    {
+      "tournament": "Valiant Spring Championship 2026",
+      "team1": "Tokyo Shadow",
+      "team2": "Solar Kings",
+      "score": "13-11",
+      "date": "2026-04-23T19:00",
+      "status": "FINISHED",
+      "map": "Bind"
+    },
+    {
+      "tournament": "Valiant Spring Championship 2026",
+      "team1": "Crimson Wolves",
+      "team2": "Tokyo Shadow",
+      "score": "0-0",
+      "date": "2026-04-27T20:00",
+      "status": "SCHEDULED",
+      "map": "Haven"
+    },
+    {
+      "tournament": "Valiant Spring Championship 2026",
+      "team1": "Iron Phoenix",
+      "team2": "Solar Kings",
+      "score": "0-0",
+      "date": "2026-04-28T18:30",
+      "status": "SCHEDULED",
+      "map": "Split"
+    },
+    {
+      "tournament": "Valiant Winter Cup 2026",
+      "team1": "Tokyo Shadow",
+      "team2": "Crimson Wolves",
+      "score": "16-14",
+      "date": "2026-03-15T17:00",
+      "status": "FINISHED",
+      "map": "Icebox"
+    },
+    {
+      "tournament": "Valiant Winter Cup 2026",
+      "team1": "Iron Phoenix",
+      "team2": "Solar Kings",
+      "score": "13-7",
+      "date": "2026-03-16T19:00",
+      "status": "FINISHED",
+      "map": "Lotus"
+    },
+    {
+      "team1": "A",
+      "team2": "B",
+      "score": "0-0",
+      "status": "LIVE"
+    }
+  ],
+  "tournaments": [
+    {
+      "name": "Valiant Spring Championship 2026",
+      "prize": 250000,
+      "startDate": "2026-04-20",
+      "endDate": "2026-05-10",
+      "status": "ongoing",
+      "format": "Double Elimination",
+      "location": "Berlin, Germany"
+    },
+    {
+      "name": "Valiant Winter Cup 2026",
+      "prize": 100000,
+      "startDate": "2026-02-10",
+      "endDate": "2026-03-20",
+      "status": "finished",
+      "format": "Single Elimination",
+      "location": "Online"
+    },
+    {
+      "name": "Valiant Summer Invitational 2026",
+      "prize": 500000,
+      "startDate": "2026-07-15",
+      "endDate": "2026-08-05",
+      "status": "upcoming",
+      "format": "Group Stage + Playoffs",
+      "location": "Tokyo, Japan"
+    },
+    {
+      "name": "Test Tour",
+      "status": "UPCOMING",
+      "prize": "$1000"
+    }
+  ]
+}

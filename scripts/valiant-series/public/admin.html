@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h2>ADMIN</h2>
+
+<button onclick="addPlayer()">+ Игрок</button>
+<button onclick="addTeam()">+ Команда</button>
+<button onclick="addMatch()">+ Матч</button>
+<button onclick="addTournament()">+ Турнир</button>
+
+<script>
+
+async function addPlayer(){
+  let nick = prompt("Nick");
+
+  await fetch("/api/players", {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({
+      nick,
+      elo:1000,
+      kills:0,
+      deaths:0,
+      assists:0
+    })
+  });
+}
+
+async function addTeam(){
+  let name = prompt("Team");
+
+  await fetch("/api/teams", {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({
+      name,
+      elo:1000
+    })
+  });
+}
+
+async function addMatch(){
+  let t1 = prompt("Team1");
+  let t2 = prompt("Team2");
+
+  await fetch("/api/matches", {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({
+      team1:t1,
+      team2:t2,
+      score:"0-0",
+      status:"LIVE"
+    })
+  });
+}
+
+async function addTournament(){
+  let name = prompt("Name");
+
+  await fetch("/api/tournaments", {
+    method:"POST",
+    headers:{"Content-Type":"application/json"},
+    body: JSON.stringify({
+      name,
+      status:"UPCOMING",
+      prize:"$1000"
+    })
+  });
+}
+
+</script>
+
+</body>
+</html>
